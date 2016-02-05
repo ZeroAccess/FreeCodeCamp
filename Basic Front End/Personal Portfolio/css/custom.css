@@ -1,0 +1,37 @@
+/**
+ * Created by robertsg on 2/3/2016.
+ */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#social-buttons {
+    width:546px;
+    list-style-type: none;
+    margin: 10px auto;
+    float:none;
+    padding-left:0;
+}
+
+#social-buttons li {
+    display: inline;
+}
+
+.fa {
+    padding-right:3px;
+}
+
+a {
+    color: #eeeeee;
+}
+
+a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.portfolio-image {
+    width: 260px;
+}
