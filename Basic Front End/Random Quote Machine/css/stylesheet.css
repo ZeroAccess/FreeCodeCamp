@@ -26,7 +26,7 @@ body {
 
 #footer {
     margin: 10px auto;
-    width:250px;
+    width:150px;
     position:relative;
 }
 
@@ -42,7 +42,7 @@ body {
     font-size: 1em;
 }
 
-#twitter-btn {
+#facebook-btn {
     margin-left: 5px;
 }
 
