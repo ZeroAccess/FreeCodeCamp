@@ -17,21 +17,9 @@ $(document).ready(function() {
                 document.getElementById("output").innerHTML = document.getElementById("output").innerHTML.slice(0, -1);
                 break;
             case '%':
-                restoredValue = document.getElementById("output").innerHTML;
-                document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + value;
-                break;
             case '/':
-                restoredValue = document.getElementById("output").innerHTML;
-                document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + value;
-                break;
             case '*':
-                restoredValue = document.getElementById("output").innerHTML;
-                document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + value;
-                break;
             case '-':
-                restoredValue = document.getElementById("output").innerHTML;
-                document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + value;
-                break;
             case '+':
                 restoredValue = document.getElementById("output").innerHTML;
                 document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + value;
@@ -46,8 +34,6 @@ $(document).ready(function() {
                     document.getElementById("output").innerHTML = restoredValue;
                     restoredValue = '';
                 }
-
-
                 break;
             case '=':
                 restoredValue = document.getElementById("output").innerHTML;
