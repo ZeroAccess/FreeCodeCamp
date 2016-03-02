@@ -1,0 +1,38 @@
+body {
+    background-color: #111;
+    color:white;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    font-size: .8em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display:inline;
+    text-align:center;
+}
+
+#showLatitude {
+    display:inline;
+    margin-right: 20px;
+}
+
+#showLongitude {
+    display:inline;
+}
+
+#convertTemp {
+    margin: 10px;
+}
