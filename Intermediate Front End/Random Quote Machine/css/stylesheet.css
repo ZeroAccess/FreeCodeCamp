@@ -19,15 +19,15 @@ body {
 }
 
 #quote-author {
-    text-align:right;
+    text-align: right;
     padding: 10px 50px 10px 0;
     font-size: .8em;
 }
 
 #footer {
     margin: 10px auto;
-    width:150px;
-    position:relative;
+    width: 150px;
+    position: relative;
 }
 
 .btn {
@@ -47,6 +47,6 @@ body {
 }
 
 #new-quote-btn {
-    float:right;
-    margin-right:5px;
+    float: right;
+    margin-right: 5px;
 }

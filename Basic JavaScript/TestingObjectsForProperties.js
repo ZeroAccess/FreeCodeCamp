@@ -7,7 +7,7 @@ var myObj = {
 
 function checkObj(checkProp) {
     // Your Code Here
-    if(myObj.hasOwnProperty(checkProp)) {
+    if (myObj.hasOwnProperty(checkProp)) {
         console.log(myObj[checkProp]);
         console.log("test");
     } else {

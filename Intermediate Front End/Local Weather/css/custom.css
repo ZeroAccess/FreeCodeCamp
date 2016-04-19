@@ -1,6 +1,6 @@
 body {
     background-color: #111;
-    color:white;
+    color: white;
 }
 
 h1 {
@@ -20,19 +20,27 @@ ul {
 
 li {
     list-style: none;
-    display:inline;
-    text-align:center;
+    display: inline;
+    text-align: center;
 }
 
 #showLatitude {
-    display:inline;
+    display: inline;
     margin-right: 20px;
 }
 
 #showLongitude {
-    display:inline;
+    display: inline;
 }
 
 #convertTemp {
     margin: 10px;
+}
+
+#weatherResult {
+    display: inline;
+}
+
+#temp {
+    display:inline-block;
 }

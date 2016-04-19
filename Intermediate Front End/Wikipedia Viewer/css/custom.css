@@ -1,0 +1,19 @@
+body {
+    background-color: #122b40;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#searchArea {
+    text-align:center;
+    font-size:1.2em;
+}
+
+#randomArticle {
+    margin-top: 100px;
+}
+

@@ -1,10 +1,10 @@
 function rot13(str) { // LBH QVQ VG!
     var result = '';
-    for(var i = 0; i < str.length; i++) {
+    for (var i = 0; i < str.length; i++) {
         var letter = str.charCodeAt(i);
-        if(letter < 78 && letter > 64) {
+        if (letter < 78 && letter > 64) {
             letter += 13;
-        }else if(letter > 76 && letter < 91) {
+        } else if (letter > 76 && letter < 91) {
             letter -= 13;
         }
         result += String.fromCharCode(letter);

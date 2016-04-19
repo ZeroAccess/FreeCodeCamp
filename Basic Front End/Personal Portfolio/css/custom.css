@@ -8,11 +8,11 @@
 }
 
 #social-buttons {
-    width:546px;
+    width: 546px;
     list-style-type: none;
     margin: 10px auto;
-    float:none;
-    padding-left:0;
+    float: none;
+    padding-left: 0;
 }
 
 #social-buttons li {
@@ -20,7 +20,7 @@
 }
 
 .fa {
-    padding-right:3px;
+    padding-right: 3px;
 }
 
 a {

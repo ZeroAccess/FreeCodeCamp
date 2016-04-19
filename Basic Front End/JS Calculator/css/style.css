@@ -10,20 +10,20 @@ body {
     height: 500px;
     margin: auto;
     text-align: center;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 #calc-title {
-    margin-top:-15px;
+    margin-top: -15px;
 }
 
 #output {
     width: 90%;
-    margin-top:-10px;
+    margin-top: -10px;
     font-size: 1.7em;
     height: 1em;
 }
@@ -32,7 +32,7 @@ textarea {
     resize: none;
     overflow: hidden;
     background-color: #9e9e9e;
-    border:solid 1px #000;;
+    border: solid 1px #000;;
     text-align: right;
 }
 
@@ -43,7 +43,7 @@ textarea {
 
 input {
     background-color: #9e9e9e;
-    width:60px;
+    width: 60px;
     height: 60px;
     text-align: center;
     margin: 10px;
@@ -51,7 +51,7 @@ input {
 
 button {
     background-color: #9e9e9e;
-    width:60px;
+    width: 60px;
     height: 60px;
     text-align: center;
     margin: 10px;

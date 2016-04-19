@@ -32,7 +32,7 @@ $(document).ready(function () {
     $('#new-quote-btn').on('click', getQuote);
 
     $('#twitter-btn').on('click', function () {
-            openURL('https://twitter.com/intent/tweet?text=' + document.getElementById("quote").innerHTML + '   --DeadPool');
+        openURL('https://twitter.com/intent/tweet?text=' + document.getElementById("quote").innerHTML + '   --DeadPool');
     });
 
 });

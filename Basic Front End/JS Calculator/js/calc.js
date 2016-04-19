@@ -1,11 +1,12 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $('.button').click(function() {
+    $('.button').click(function () {
         calculate($(this).attr('data-value'))
         //alert($(this).attr('data-value'));
     });
 
     var restoredValue = '';
+
     function calculate(value) {
         switch (value) {
             case 'AC':
@@ -28,7 +29,7 @@ $(document).ready(function() {
                 document.getElementById("output").innerHTML += value;
                 break;
             case 'ANS':
-                if(restoredValue === ''){
+                if (restoredValue === '') {
 
                 } else {
                     document.getElementById("output").innerHTML = restoredValue;

@@ -1,7 +1,7 @@
 body {
     background: #9d9d9d;
     padding-top: 40px;
-    color:white;
+    color: white;
 }
 
 h1 {
@@ -14,11 +14,11 @@ h1 {
 }
 
 .thumbnail {
-    color:black;
+    color: black;
 }
 
 .caption {
-    padding-top:2px;
+    padding-top: 2px;
 }
 
 blockquote {

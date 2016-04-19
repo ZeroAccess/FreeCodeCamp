@@ -18,7 +18,7 @@ var collection = {
     },
     1245: {
         artist: "Robert Palmer",
-        tracks: [ ]
+        tracks: []
     },
     5439: {
         album: "ABBA Gold"
@@ -31,7 +31,7 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 function update(id, prop, value) {
     if (prop === "tracks" && value !== "") {
         collection[id][prop].push(value);
-    } else if (value !== ""){
+    } else if (value !== "") {
         collection[id][prop] = value;
     } else {
         delete collection[id][prop];
